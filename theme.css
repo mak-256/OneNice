@@ -520,3 +520,16 @@ strong, .cm-s-obsidian span.cm-formatting-strong, .cm-s-obsidian span.cm-strong 
 em, .cm-s-obsidian span.cm-formatting-em, .cm-s-obsidian span.cm-em {
   color: #e55561;
 }
+
+/*center all images in preview mode*/
+.markdown-preview-view img {
+  display: block;
+  margin: 0 auto;
+}
+
+/*center all tables in preview mode... obviously*/
+.markdown-preview-view table {
+    margin: 0 auto;
+    /*create some spaces between other objects*/
+    padding: 15px;
+}
