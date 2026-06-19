@@ -461,6 +461,7 @@ pre[class*="language-"]::before {
     position: absolute;
     right: 0.5em;
     top: 0.5em;
+    text-transform: uppercase;
 }
 pre[class*="language-"]:hover::before {
     opacity: 0;
@@ -528,7 +529,13 @@ body pre[class~="language-r"]::before {
     content: "R";
 }
 body pre[class~="language-rust"]::before {
-    content: "RUST";
+    content: "rust";
+}
+body pre[class~="language-json"]::before {
+    content: "JSON";
+}
+body pre[class~="language-toml"]::before {
+    content: "TOML";
 }
 .markdown-rendered button.copy-code-button {
     background-color: var(--background-secondary-alt);
